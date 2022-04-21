@@ -1,0 +1,236 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+<!--    폰트-->
+    <link href="css/sims.css" rel="stylesheet" type="text/css">
+    <title>main</title>
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/sims.js"></script>
+    
+</head>
+<body>
+    <div id="bodyWrap">
+        <nav id="menu">
+            <div><a href="http://dg6086.dothome.co.kr/portfolio/portfolio.html" target="_blank">포트폴리오<br>ver2</a></div>
+            <div><a href="http://dg6090.dothome.co.kr/rayblelon/index.html" target="_blank">레이블론<br>메인페이지</a></div>
+            <div><a href="http://dg6090.dothome.co.kr/frozen/frozen.html" target="_blank">겨울왕국 <br>티저사이트</a></div>
+            <div><a href="http://dg6086.dothome.co.kr/mont/index.html" target="_blank">몬트 <br>&#40;모바일&#41;</a></div>
+            <div><a href="#"></a></div>
+        </nav>
+        <div id="skill">
+            <div id="myface"></div>
+            <div id="more"></div>
+            <div id="direction"></div>
+            <div id="stat">
+                <div id="photho">
+                     <p>PhotoShop</p>
+                    <div></div>
+                   
+                </div>
+                <div id="illu">
+                     <p>illustrator</p>
+                    <div></div>
+                    
+                </div>
+                <div id="Htm">
+                    <p>html</p>
+                    <div></div>
+                     
+                </div>
+                <div id="Css">
+                    <p>Css</p>
+                    <div></div>
+                     
+                </div>
+                <div id="jq">
+                     <p>jQuery</p>
+                    <div></div>
+                    
+                </div>
+                <div id="java">
+                    <p>java script</p>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="skmore">
+            <p>업무 능력</p>
+            <div>
+            <div id="skleft">
+               <div>                   
+                    <p>Photo Shop</p>
+                    <div></div>
+                </div>
+                <div>
+                    <p>illustrator</p>
+                    <div></div>
+                </div>
+                <div>
+                    <p>html</p>
+                    <div></div>
+                </div>
+            </div>
+            <div id="skright">
+                <div>
+                    <p>Css</p>
+                    <div></div>
+                </div>
+                <div>
+                    <p>jQuery</p>
+                    <div></div>
+                </div>
+                <div>
+                    <p>java script</p>
+                    <div></div>
+                </div>
+             </div>
+            </div>
+        
+        </div>
+        <div id="top">
+            <div>
+                <p> 만렙<br>MAX</p>
+            </div>
+            <div><p>열정,패기,노오력</p></div>
+            <div></div>
+            <div>
+                <p>0</p><p>50</p><p>100</p>
+            </div>
+            <div><p>경험치</p></div>
+        </div>
+        <div id="character">
+            <a href="#">
+                <img src="image/ssims.png" alt="sims">
+            </a>
+            <div id="choice">채용한다.</div>
+            <div id="nono">채용하지 않는다.</div>
+            <div>당신의 선택은?</div>
+         </div>
+         <div id="chat">
+            <div>
+                <div>기본 정보</div>
+                <div id="click">업무 스킬에 대하여</div>
+                <div>결정하기</div>
+            </div>
+         </div>
+         <div id="self">
+            <div>
+                이름 : 이지혜<br>
+                생일 : 1994/03/29<br>
+                혈액형 : O형<br>
+                연령 : 27세<br>
+                취미 : 게임, 문화생활, 여행<br>
+                연락처 : 010-9461-9006
+             </div>
+             <div>
+                활발함 : 100 <br>
+                성실함 : 100<br>
+                적극성 : 100<br>
+                질병 지수 : 0 <br>
+                불량 지수 : 0<br>
+                <br>
+                튼튼합니다!<br>
+                열심히 합니다!<br>
+              </div>
+         </div>
+         <div class="about">
+            <p id="typing"></p>
+         </div>
+        <div id="think">
+            <p>뽑아주세요!!</p>
+        </div>
+    </div>
+
+    
+<script>
+//    window.onload = function() {
+//    var divs = document.querySelectorAll('#bodyWrap');
+//    for (var i = 0; i < divs.length; ++i) {
+//    var div = divs[i];
+//    var divAspect = div.offsetHeight / div.offsetWidth;
+//    div.style.overflow = 'hidden';
+//    
+//    var img = div.querySelector('img');
+//    var imgAspect = img.height / img.width;
+//
+//    if (imgAspect <= divAspect) {
+//      // 이미지가 div보다 납작한 경우 세로를 div에 맞추고 가로는 잘라낸다
+//      var imgWidthActual = div.offsetHeight / imgAspect;
+//      var imgWidthToBe = div.offsetHeight / divAspect;
+//      var marginLeft = -Math.round((imgWidthActual - imgWidthToBe) / 2)
+//      img.style.cssText = 'width: auto; height: 100%; margin-left: '
+//                      + marginLeft + 'px;'
+//    } else {
+//      // 이미지가 div보다 길쭉한 경우 가로를 div에 맞추고 세로를 잘라낸다
+//      img.style.cssText = 'width: 100%; height: auto; margin-left: 0;';
+//    }
+//  }
+//  
+//  var btn = document.querySelector('#btnToggleOverflow');
+//  btn.onclick = function() {
+//        var val = divs[0].style.overflow == 'hidden' ? 'visible' : 'hidden';
+//        for (var i = 0; i < divs.length; ++i)
+//            divs[i].style.overflow = val;
+//        };
+//    };
+    
+     //Home_title animation (open source)
+//    var TxtRotate = function(el, toRotate, period) {
+//    this.toRotate = toRotate;
+//    this.el = el;
+//    this.loopNum = 0;
+//    this.period = parseInt(period, 10) || 2000;
+//    this.txt = '';
+//    this.tick();
+//    this.isDeleting = false;
+//  };
+//  TxtRotate.prototype.tick = function() {
+//    var i = this.loopNum % this.toRotate.length;
+//    var fullTxt = this.toRotate[i];
+//    if (this.isDeleting) {
+//      this.txt = fullTxt.substring(0, this.txt.length - 1);
+//    } else {
+//      this.txt = fullTxt.substring(0, this.txt.length + 1);
+//    }
+//    this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+//    var that = this;
+//    var delta = 150 - Math.random() * 100;
+//    if (this.isDeleting) { delta /= 2; }
+//    if (!this.isDeleting && this.txt === fullTxt) {
+//      delta = this.period;
+//      this.isDeleting = true;
+//    } else if (this.isDeleting && this.txt === '') {
+//      this.isDeleting = false;
+//      this.loopNum++;
+//      delta = 500;
+//    }
+//    setTimeout(function() {
+//      that.tick();
+//    }, delta);
+//  };
+//  window.onload = function() {
+//    var elements = document.getElementsByClassName('txt-rotate');
+//    for (var i=0; i<elements.length; i++) {
+//      var toRotate = elements[i].getAttribute('data-rotate');
+//      var period = elements[i].getAttribute('data-period');
+//      if (toRotate) {
+//        new TxtRotate(elements[i], JSON.parse(toRotate), period);
+//      }
+//    }
+//    setTimeout(function(){
+//      window.scrollTo(0,0);
+//    }, 0);
+//    var css = document.createElement("style");
+//    css.type = "text/css";
+//    css.innerHTML = ".txt-rotate > .wrap { border-right: 0.04em solid #666 }";
+//    document.body.appendChild(css);
+//  };
+
+</script>
+
+</body>
+
+</html>
